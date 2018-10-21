@@ -1,0 +1,77 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="message_view_txt_size">18sp</dimen>
+
+    <dimen name="app_view_size">115dp</dimen>
+    <dimen name="app_view_outer_size">120dp</dimen>
+
+    <dimen name="app_holder_size">400dp</dimen>
+    <dimen name="grid_layout_margin">10dp</dimen>
+    <dimen name="vertical_grid_layout_margin">5dp</dimen>
+
+    <!--New Main Screen View-->
+    <dimen name="header_view_height">55dp</dimen>
+    <dimen name="header_icon_size">20dp</dimen>
+    <dimen name="header_icon_click_size">30dp</dimen>
+    <dimen name="header_txt_size">20sp</dimen>
+    <dimen name="header_page_date_txt_size">14sp</dimen>
+
+
+    <!--Main Screen banner View-->
+    <dimen name="page_view_banner_height">100dp</dimen>
+    <dimen name="banner_bottom_strip_height">40dp</dimen>
+
+    <dimen name="menu_item_width">120dp</dimen>
+    <dimen name="banner_bottom_txt_size">14sp</dimen>
+
+    <!--Menu View Dimen-->
+    <dimen name="menu_item_height">50dp</dimen>
+    <dimen name="menu_item_txt_size">19sp</dimen>
+    <dimen name="menu_item_divider_height">0.5dp</dimen>
+    <dimen name="menu_left_margin">20dp</dimen>
+    <dimen name="menu_right_margin">40dp</dimen>
+    <dimen name="slide_menu_user_profile">150dp</dimen>
+    <dimen name="profile_view_size">70dp</dimen>
+    <dimen name="profile_view_icons">40dp</dimen>
+
+    <!--Main View Margin-->
+    <dimen name="main_view_margin">3dp</dimen>
+    <!--Content Dimen-->
+    <dimen name="content_padding">3dp</dimen>
+    <dimen name="content_txt_size">20sp</dimen>
+
+
+    <!--Normal Dimen Values-->
+    <dimen name="margin_20dp">20dp</dimen>
+    <dimen name="margin_50dp">50dp</dimen>
+    <dimen name="margin_30dp">30dp</dimen>
+    <dimen name="text_18sp">18sp</dimen>
+    <dimen name="margin_10dp">10dp</dimen>
+    <dimen name="text_20sp">20sp</dimen>
+    <dimen name="text_15sp">15sp</dimen>
+    <dimen name="margin_15dp">15dp</dimen>
+
+    <!--Button Dimen-->
+    <dimen name="button_corner">20dp</dimen>
+    <dimen name="button_height">50dp</dimen>
+    <dimen name="button_width">300dp</dimen>
+    <dimen name="button_width_increased">320dp</dimen>
+    <dimen name="button_txt_size">17sp</dimen>
+
+    <dimen name="margin_5dp">5dp</dimen>
+
+    <!--Reminder View-->
+    <dimen name="reminder_icon_size">20dp</dimen>
+    <dimen name="reminder_txt_size">18sp</dimen>
+    <dimen name="reminder_txt_size_small">15sp</dimen>
+
+    <!--Calender View-->
+    <dimen name="calender_view_height">192dp</dimen>
+    <dimen name="calender_view_padding">24dp</dimen>
+    <dimen name="calender_view_margin">12dp</dimen>
+    <dimen name="calender_horizontal_spacing">1dp</dimen>
+    <dimen name="calender_vertical_spacing">1dp</dimen>
+</resources>

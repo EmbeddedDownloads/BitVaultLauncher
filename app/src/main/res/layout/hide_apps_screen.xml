@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/header"
+        layout="@layout/header_layout"></include>
+
+    <ListView
+        android:id="@+id/hideShowAppsList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/hideAppsSaveButton"
+        android:layout_below="@+id/header"></ListView>
+
+    <TextView
+        android:id="@+id/hideAppsSaveButton"
+        android:layout_width="@dimen/button_width"
+        android:layout_height="@dimen/button_height"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/margin_10dp"
+        android:layout_marginTop="@dimen/margin_10dp"
+        android:background="@drawable/button_selector"
+        android:gravity="center"
+        android:text="@string/save"
+        android:textColor="@color/button_text_color"
+        android:textSize="@dimen/button_txt_size" />
+
+    <RelativeLayout
+        android:id="@+id/enterPasswordView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <include layout="@layout/unlock_password_view"></include>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/loadingBitvault"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/loading_bitvault"></RelativeLayout>
+
+</RelativeLayout>

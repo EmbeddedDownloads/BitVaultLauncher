@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#9C814A</color>
+    <color name="colorPrimaryDark">#967d49</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="colorBlack">#000000</color>
+    <color name="colorLightBlack">#878686</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="transparent">#0fffffff</color>
+    <color name="white_transparent">#26efe8e8</color>
+    <color name="colorGray">#C3BFBF</color>
+
+    <!--Theme Colors WHITE-->
+    <color name="white_theme_bg_color">#ffffff</color>
+    <color name="theme_white">#ffffff</color>
+    <color name="theme_white_dark">#6e6b6b</color>
+    <color name="theme_green">#0A7134</color>
+    <color name="theme_green_dark">#0B512A</color>
+    <color name="theme_red">#F93839</color>
+    <color name="theme_red_dark">#DD2425</color>
+    <color name="theme_purple">#BA64D8</color>
+    <color name="theme_purple_dark">#9B51B4</color>
+
+    <!--Button Color Theam-->
+    <color name="button_color">#3F51B5</color>
+    <color name="button_selector_color">#313e91</color>
+    <color name="button_text_color">#ffffff</color>
+
+    <color name="button_white_color">#6e6b6b</color>
+    <color name="button_white_selector_color">#5c5959</color>
+    <color name="button_white_text_color">#000000</color>
+
+    <color name="sign_in_sign_up_theme">#8d8d8f</color>
+    <color name="sign_in_sign_up_txt_color">#080808</color>
+    <color name="sign_in_sign_up_txt_hint_color">#ef717174</color>
+
+</resources>

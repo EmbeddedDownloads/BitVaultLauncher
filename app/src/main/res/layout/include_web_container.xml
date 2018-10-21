@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/colorWhite"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/main_view_margin"
+        android:background="@drawable/white_box_bg_new"
+        android:orientation="vertical">
+
+
+        <WebView
+            android:id="@+id/webDataContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/content_padding"
+            android:scrollbarThumbVertical="@drawable/scrollbar_view" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

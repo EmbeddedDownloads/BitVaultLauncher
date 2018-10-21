@@ -1,0 +1,36 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorPrimary</item>
+    </style>
+
+    <style name="WhiteTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/theme_white</item>
+        <item name="colorPrimaryDark">@color/theme_white_dark</item>
+    </style>
+
+    <style name="whiteTextInputLayout" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+
+    <style name="calender_weekdays_style" parent="android:Widget.Holo.Light.TextView">
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/colorBlack</item>
+        <item name="android:textSize">@dimen/text_15sp</item>
+        <item name="android:textStyle">italic</item>
+    </style>
+
+    <style name="nowCardStyle" parent="android:Widget.TextView">
+        <item name="android:padding">@dimen/calender_view_padding</item>
+        <item name="android:background">@drawable/search_bg_shadow</item>
+        <item name="android:gravity">left|center_horizontal</item>
+        <item name="android:textColor">@color/colorGray</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+
+</resources>

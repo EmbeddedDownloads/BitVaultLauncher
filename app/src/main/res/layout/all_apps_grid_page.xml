@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingTop="@dimen/margin_5dp">
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/searchView_txtinpt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/sign_in_sign_up_txt_hint_color"
+            app:hintTextAppearance="@style/whiteTextInputLayout">
+
+            <EditText
+                android:id="@+id/searchView_et"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/search_icon_black"
+                android:drawablePadding="@dimen/margin_5dp"
+                android:hint="@string/search_app"
+                android:imeOptions="actionDone"
+                android:inputType="textPersonName"
+                android:singleLine="true"
+                android:textColor="@color/colorPrimaryDark"
+                android:textColorHint="@color/colorPrimary"
+                android:textSize="@dimen/button_txt_size"
+                android:textStyle="normal" />
+        </android.support.design.widget.TextInputLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:background="@color/colorGray"></RelativeLayout>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/all_apps_grid_recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:clipToPadding="false"
+            android:scrollbars="vertical" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/loadingBitvault"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/loading_bitvault"></RelativeLayout>
+</RelativeLayout>
